@@ -104,7 +104,7 @@ int main(int argc, char *argv[]) {
 
 	Readline(conn_s, buffer, MAX_LINE-1);
 	Writeline(conn_s, buffer, strlen(buffer));
-
+    printf("buffer: %s\n",buffer);
 
 	/*  Close the connected socket  */
 
